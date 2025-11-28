@@ -9,9 +9,9 @@ fn test_selection_sort() {
 }   
 #[test]
 fn test_insertion_sort() {
-    let list = vec![64, 25, 12, 22, 11];
+    let list = vec![77, 27, 70, 56, 5, 61, 13, 75, 44, 11, 89, 48, 25, 35, 40, 8, 36, 94, 85, 67];
     let sorted_list = insertion_sort(list);
-    assert_eq!(sorted_list, vec![11, 12, 22, 25, 64]);
+    assert_eq!(sorted_list, vec! [5, 8, 11, 13, 25, 27, 35, 36, 40, 44, 48, 56, 61, 67, 70, 75, 77, 85, 89, 94]);
 }
 #[test]
 fn test_merge_sort() {
